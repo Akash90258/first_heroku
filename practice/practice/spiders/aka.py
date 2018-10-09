@@ -12,8 +12,8 @@ class AkaSpider(scrapy.Spider):
 		item=PracticeItem()
 		item['defi']=response.xpath('//div/text()').extract()[-8]
 		item['sign']=response.xpath('//div/text()').extract()[-10]
-		print item
-		print item['defi']
-		print item['sign']
+		print (item)
+		print (item['defi'])
+		print (item['sign'])
 #		print response.body
         
