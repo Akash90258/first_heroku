@@ -1,2 +1,2 @@
-#web: scrapyd
-web: python -m scrapyd_heroku.manage
+web: scrapyd
+#web: python -m scrapyd_heroku.manage
