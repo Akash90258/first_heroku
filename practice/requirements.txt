@@ -1,3 +1,4 @@
-Scrapy
-scrapyd
-scrapyd-heroku
+Scrapy==1.5.0
+scrapyd==1.2.0
+scrapyd-client==1.1.0
+scrapyd-heroku==0.1.0
