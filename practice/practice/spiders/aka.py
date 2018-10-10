@@ -9,11 +9,12 @@ class AkaSpider(scrapy.Spider):
     start_urls = ['https://www.w3schools.com/pHP/php_intro.asp']
 
     def parse(self, response):
-		item=PracticeItem()
-		item['defi']=response.xpath('//div/text()').extract()[-8]
-		item['sign']=response.xpath('//div/text()').extract()[-10]
-		print (item)
-		print (item['defi'])
-		print (item['sign'])
-#		print response.body
+		print (response.xpath('//div/text()').extract()[-8])
+		print (response.xpath('//div/text()').extract()[-10])
+		print ("radhe radhe")
+		print ("-----------------------------------------")
+
+
+
+
         
